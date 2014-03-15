@@ -137,7 +137,6 @@ header nav a:hover {
     background: #DDD;
 }
 
-<<<<<<< HEAD
 #main {
     background-image: url('img/coworking.jpg');
     height: 450px;
@@ -158,7 +157,17 @@ header nav a:hover {
 
 .box {
     border: 3ps solid yellow;
-=======
+}
+
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
 button {
     border-radius: 3px;
     font-family: 'Merriweather';
@@ -171,18 +180,8 @@ button {
 button .yellow {
     color:#f8ff00;
     box-shadow: 0px 3px 0px #c6cc00;
->>>>>>> styles
-}
-
-footer {
 
 }
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
-
-
 
 
 
