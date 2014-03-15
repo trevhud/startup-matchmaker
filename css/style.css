@@ -75,10 +75,6 @@ h1 {
     color:#f8ff00;
 }
 
-header  {
-    background-color: black;
-}
-
 header nav ul {
     font-family: Source+Sans+Pro;
     font
@@ -115,6 +111,10 @@ header nav a:hover {
     background: #999;
 }
 
+#subheader {
+    height: 80px;
+    background: #DDD;
+}
 
 footer {
 
