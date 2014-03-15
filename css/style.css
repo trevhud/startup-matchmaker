@@ -72,18 +72,33 @@ header {
 }
 
 h1 {
-    font-family: Merriweather;
+    font-family: 'Merriweather';
     font-weight: 900;
     color:#f8ff00;
     padding-bottom: 0px;
     margin-bottom: 5px;
 }
 
+h2{
+    font-family: 'Merriweather';
+    font-weight: 700;
+    font-size: 20px;
+}
+
+p{
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+}
+
+
+
 header nav ul {
     float: right;
-    font-family: Source+Sans+Pro;
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
     list-style: none;
     margin: 0;
+    margin-top: 5px;
     padding: 0;
 }
 
@@ -91,14 +106,14 @@ header .prominent {
     font-family: Oswald;
     font-weight: 500;
     font-size: 20px;
+    margin-top: 0px;
     color:white;
 }
 
 header nav ul li {
     float: left;
-    width: auto;
     margin: 0;
-    margin-bottom: 10px
+    margin-bottom: 10px;
     padding: 0;
 }
 header nav a {
@@ -122,6 +137,7 @@ header nav a:hover {
     background: #DDD;
 }
 
+<<<<<<< HEAD
 #main {
     background-image: url('img/coworking.jpg');
     height: 450px;
@@ -140,6 +156,20 @@ header nav a:hover {
 
 .box {
     border: 3ps solid yellow;
+=======
+button {
+    border-radius: 3px;
+    font-family: 'Merriweather';
+    font-weight: 900;
+    color: black;
+    background-color: lightgrey;
+    box-shadow: 0px 3px 0px darkgrey;
+}
+
+button .yellow {
+    color:#f8ff00;
+    box-shadow: 0px 3px 0px #c6cc00;
+>>>>>>> styles
 }
 
 footer {
