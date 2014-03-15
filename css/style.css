@@ -47,7 +47,7 @@ Developer @GA in NYC
 
 body {
      color: #000;
-     font-size: 12px;
+     font-size: 16px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
 }
@@ -64,11 +64,9 @@ body {
 }
 
 header {
-    height: 120px;
     background-color: black;
     border-bottom: 5px solid yellow;
-    padding: 20px;
-    padding-top: 10px;
+    height: 120px;
 }
 
 h1 {
@@ -79,35 +77,33 @@ h1 {
     margin-bottom: 5px;
 }
 
-h2{
+h2 {
     font-family: 'Merriweather';
     font-weight: 700;
+    font-size: 24px;
+}
+
+p {
+    font-family: 'Source Sans Pro';
     font-size: 20px;
 }
-
-p{
-    font-family: 'Source Sans Pro';
-    font-size: 14px;
-}
-
 
 
 header nav ul {
     float: right;
     font-family: 'Source Sans Pro';
-    font-size: 14px;
+    font-size: 16px;
     list-style: none;
-    margin: 0;
-    margin-top: 5px;
+    margin: 5px 20px 0 0;
     padding: 0;
+    color:white;
 }
 
-header .prominent {
+.prominent {
     font-family: Oswald;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 20px;
     margin-top: 0px;
-    color:white;
 }
 
 header nav ul li {
@@ -120,7 +116,6 @@ header nav a {
     display: block;
     font-size: 1.25em;
     color: white;
-    background: black;
     margin-right: 1px;
     padding: 5px;
     text-align: center;
@@ -152,15 +147,24 @@ header nav a:hover {
 }
 
 #subfooter {
-    border: 3px solid red;
+    height: 350px;
 }
 
 .box {
-    border: 3ps solid yellow;
+    float: left;
+    width: 33.333333333%;
+    padding: 25px;
+    margin: 20px 0 10px 0;
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
 }
 
-
 footer {
+    height: 62px;
+    background: black;
+    color: white;
+    padding: 18px;
+    font-size: 20px;
 
 }
 
