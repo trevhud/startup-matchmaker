@@ -79,10 +79,6 @@ h1 {
     margin-bottom: 5px;
 }
 
-header  {
-    background-color: black;
-}
-
 header nav ul {
     float: right;
     font-family: Source+Sans+Pro;
@@ -121,6 +117,10 @@ header nav a:hover {
     border-radius: 3px;
 }
 
+#subheader {
+    height: 80px;
+    background: #DDD;
+}
 
 footer {
 
