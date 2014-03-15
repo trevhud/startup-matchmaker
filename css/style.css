@@ -67,17 +67,21 @@ header {
     height: 120px;
     background-color: black;
     border-bottom: 5px solid yellow;
+    padding: 20px;
+    padding-top: 10px;
 }
 
 h1 {
     font-family: Merriweather;
     font-weight: 900;
     color:#f8ff00;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
 }
 
 header nav ul {
+    float: right;
     font-family: Source+Sans+Pro;
-    font
     list-style: none;
     margin: 0;
     padding: 0;
@@ -92,8 +96,9 @@ header .prominent {
 
 header nav ul li {
     float: left;
-    width: 16.66667%;
+    width: auto;
     margin: 0;
+    margin-bottom: 10px
     padding: 0;
 }
 header nav a {
@@ -102,13 +107,14 @@ header nav a {
     color: white;
     background: black;
     margin-right: 1px;
-    padding: 15px 0;
+    padding: 5px;
     text-align: center;
     text-decoration: none;
 }
 header nav a:hover {
-    color: white;
-    background: #999;
+    color: black;
+    background: #f8ff00;
+    border-radius: 3px;
 }
 
 #subheader {
