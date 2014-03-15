@@ -67,6 +67,12 @@ header {
 
 }
 
+h1 {
+    font-family: Merriweather;
+    font-weight: 900;
+    color:#f8ff00;
+}
+
 header nav ul {
     list-style: none;
     margin: 0;
